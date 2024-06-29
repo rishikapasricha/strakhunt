@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feedback Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Simple responsive form</h2>
+<form action="">
+  <section class="left">
+    <div class="input-container">
+      <label for="name">Name</label>
+      <input type="text" />
+    </div>
+    <div class="input-container">
+      <label for="age" required>Age</label>
+      <input type="text" />
+    </div>
+    <div class="input-container">
+      <label for="phone">Phone</label>
+      <input type="text" />
+    </div>
+    <div class="input-container">
+      <label for="email">Email</label>
+      <input type="text" />
+    </div>
+  </section>
+  <section class="right">
+    <div class="input-container">
+      <label for="address">Address 1</label>
+      <input type="text" />
+    </div>
+    <div class="input-container">
+      <label for="address">Address 2 <span>(opcional)</span></label>
+      <input type="text" />
+    </div>
+    <div class="input-container">
+      <label for="comments">Comments</label>
+      <textarea name="comments" id=""></textarea>
+    </div>
+  </section>
+  <div class="send-container">
+    <input type="submit" value="Send" onclick="return true" />
+  </div>
+</form>
+</body>
+</html>
